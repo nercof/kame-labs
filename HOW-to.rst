@@ -1,4 +1,11 @@
-Al intentar actualizar
+Recordar activar el viartualenv (Si funciona veremos el entorno virtual)
+
+.. code::
+ nercof:~/workspace/KameLabs (master) $ source ./vkame_labs/bin/activate
+ (vkame_labs)nercof:~/workspace/KameLabs (master) $
+ 
+Al intentar actualizar github por primera vez:
+
 .. code::
  nercof:~/workspace/KameLabs (master) $ git push -u origin master
  Username for 'https://github.com': gheize@gmail.com
@@ -11,3 +18,7 @@ Al intentar actualizar
  hint: 'git pull ...') before pushing again.
  hint: See the 'Note about fast-forwards' in 'git push --help' for details.
  nercof:~/workspace/KameLabs (master) $
+ 
+Para realizar el push emplee un --force
+.. code::
+ (vkame_labs)nercof:~/workspace/KameLabs (master) $ git push --force
